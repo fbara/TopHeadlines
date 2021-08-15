@@ -22,7 +22,7 @@ struct ArticleViewModel: Identifiable {
     
     let id = UUID()
     var author: String {
-        article.author ?? ""
+        article.author?.withoutHtmlTags ?? ""
     }
     
     var url: URL {
@@ -30,15 +30,15 @@ struct ArticleViewModel: Identifiable {
     }
     
     var source: String {
-        article.source.name
+        article.source.name.withoutHtmlTags
     }
     
     var title: String {
-        article.title
+        article.title.withoutHtmlTags
     }
     
     var description: String {
-        article.description ?? ""
+        article.description?.withoutHtmlTags ?? ""
     }
     
     var image: UIImage? {

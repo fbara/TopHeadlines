@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD8C2FC126C8C4CB00556105 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8C2FC026C8C4CB00556105 /* ArticleViewModel.swift */; };
+		AD8C2FC426C8CFBF00556105 /* Strings+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8C2FC326C8CFBF00556105 /* Strings+Extension.swift */; };
 		ADBF82D026C6BD8D00294903 /* Top_HeadlinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF82CF26C6BD8D00294903 /* Top_HeadlinesApp.swift */; };
 		ADBF82D226C6BD8D00294903 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF82D126C6BD8D00294903 /* ContentView.swift */; };
 		ADBF82D426C6BD8E00294903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBF82D326C6BD8E00294903 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		AD8C2FC026C8C4CB00556105 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		AD8C2FC326C8CFBF00556105 /* Strings+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Extension.swift"; sourceTree = "<group>"; };
 		ADBF82CC26C6BD8D00294903 /* Top Headlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Headlines.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBF82CF26C6BD8D00294903 /* Top_HeadlinesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_HeadlinesApp.swift; sourceTree = "<group>"; };
 		ADBF82D126C6BD8D00294903 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD8C2FC226C8CFA900556105 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD8C2FC326C8CFBF00556105 /* Strings+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ADBF82C326C6BD8D00294903 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		ADBF82CE26C6BD8D00294903 /* Top Headlines */ = {
 			isa = PBXGroup;
 			children = (
+				AD8C2FC226C8CFA900556105 /* Extensions */,
 				ADBF82E426C6C16100294903 /* ViewModels */,
 				ADBF82E126C6C13F00294903 /* Services */,
 				ADBF82CF26C6BD8D00294903 /* Top_HeadlinesApp.swift */,
@@ -188,6 +199,7 @@
 				ADBF82E626C6C17900294903 /* NewsViewModel.swift in Sources */,
 				ADBF82E326C6C14E00294903 /* APIService.swift in Sources */,
 				ADBF82D026C6BD8D00294903 /* Top_HeadlinesApp.swift in Sources */,
+				AD8C2FC426C8CFBF00556105 /* Strings+Extension.swift in Sources */,
 				ADBF82E026C6BE9600294903 /* News.swift in Sources */,
 				AD8C2FC126C8C4CB00556105 /* ArticleViewModel.swift in Sources */,
 				ADBF82DE26C6BDB200294903 /* Constants.swift in Sources */,
