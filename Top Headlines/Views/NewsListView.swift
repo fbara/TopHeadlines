@@ -45,7 +45,6 @@ struct NewsListView: View {
                 }
                 
                 if #available(iOS 15, *) {
-                    #warning("This is a temporary fix")
                     if article.image != nil {
                         AsyncImageList(url: article.imageURL) { image in
                             image
