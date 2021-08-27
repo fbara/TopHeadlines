@@ -21,5 +21,6 @@ struct News: Codable {
         let publishedAt: Date
     }
     let articles: [Article]
+    let totalResults: Int
 }
 
